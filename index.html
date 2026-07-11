@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Safal Darlami | Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ===== VIDEO HERO SECTION (Full screen) ===== -->
+    <section class="video-hero" id="videoHero">
+        <!-- Fallback gradient background if video doesn't load -->
+        <div class="hero-fallback"></div>
+        
+        <!-- Background Video -->
+        <video class="hero-video" autoplay muted loop playsinline id="bgVideo">
+            <source src="Ytmp3.gg_YouTube_After-Effects-Loading-Screen_Media_3Df-26ZtIPA_001_720p.mp4" type="video/mp4" />
+            <!-- Fallback: You can replace with your own video -->
+        </video>
+        
+        <!-- Dark Overlay -->
+        <div class="hero-overlay"></div>
+        
+        <!-- Hero Content -->
+        <div class="hero-content-overlay">
+            <span class="hero-badge">Computer Networking & IT Security</span>
+            <h1>
+                I build <span>secure</span> systems,<br />
+                <span>analyze</span> threats &<br />
+                protect <span>data</span>.
+            </h1>
+            <p class="hero-bio">
+                Cybersecurity student at Islington College (London Met). 
+                Passionate about Blue/Red Teaming, IS Audit & Network Security.
+            </p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">View My Work</a>
+                <a href="contact.html" class="btn btn-secondary">Let's Talk</a>
+            </div>
+            <div class="hero-social">
+                <a href="mailto:safal.darlami@email.com"><i class="fas fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ===== HEADER (Fixed on top of video) ===== -->
+    <header class="header-overlay">
+        <div class="header-container">
+            <a href="index.html" class="logo">Safal <span>Darlami</span></a>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="career.html">Career</a>
+                <a href="contact.html">Contact</a>
+                <a href="#" class="nav-link">Resume</a>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== CONTENT WRAPPER (Scrolls over video) ===== -->
+    <div class="content-wrapper">
+        <div class="container">
+            <!-- Quick Stats -->
+            <section class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Academic Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Career Focus Areas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Certifications</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2028</span>
+                    <span class="stat-label">Graduation Year</span>
+                </div>
+            </section>
+
+            <!-- About Preview -->
+            <section class="about-preview">
+                <div class="about-preview-content">
+                    <span class="section-label">About Me</span>
+                    <h2>Building a <span>safer</span> digital world</h2>
+                    <p>
+                        I'm a Computer Networking & IT Security student with a deep passion for 
+                        cybersecurity, ethical hacking, and network security. I enjoy building 
+                        secure solutions, analyzing threats, and continuously learning about 
+                        emerging technologies in the security landscape.
+                    </p>
+                    <div class="about-preview-grid">
+                        <div class="about-preview-item">
+                            <i class="fas fa-shield-halved"></i>
+                            <span>Security Research</span>
+                        </div>
+                        <div class="about-preview-item">
+                            <i class="fas fa-code"></i>
+                            <span>Secure Coding</span>
+                        </div>
+                        <div class="about-preview-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud Security</span>
+                        </div>
+                        <div class="about-preview-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Network Security</span>
+                        </div>
+                    </div>
+                    <a href="projects.html" class="btn btn-primary">See My Projects</a>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2026 Safal Darlami. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="mailto:safal.darlami@email.com"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
